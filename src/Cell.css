@@ -23,3 +23,16 @@
     background-color: #00bcd4;
   } */
   
+  @media screen and (max-width: 700px) {
+    .Cell{
+        width: 60px;
+        height: 60px;
+        background-color: #263238;;
+        border-radius: 1px;
+        transition: background-color 0.7s ease;
+        margin: 0.5px;
+    }
+    .isLit{
+        background-color: #00bcd4;
+    }
+  }
